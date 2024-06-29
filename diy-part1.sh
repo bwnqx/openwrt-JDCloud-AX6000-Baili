@@ -16,5 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git homeproxy https://github.com/immortalwrt/homeproxy;dev' >>feeds.conf.default
 
+# Add packages
+git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
