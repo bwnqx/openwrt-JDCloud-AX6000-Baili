@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add packages
-git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
+#git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
